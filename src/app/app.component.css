@@ -1,0 +1,281 @@
+.example-card {
+    width: 533px;
+    height: 721px;
+    background: #152932 0% 0% no-repeat padding-box;
+    border: 2px solid #1DA1F2;
+    border-radius: 8px;
+}
+
+.header-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-logo {
+    width: 287px;
+    height: 75px;
+    /* UI Properties */
+    background: transparent 0% 0% no-repeat padding-box;
+    mix-blend-mode: screen;
+    /* padding-top: 59px; */
+    padding-bottom: 25px;
+}
+
+.example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+
+}
+
+.sign-in {
+    width: 77px;
+    height: 33px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal 600 24px/33px Open Sans !important;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    margin-bottom: 0px;
+}
+
+.center-content {
+    text-align: -webkit-center;
+    background: url('../assets/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 70% 50%;
+    min-height: calc(100vh - 164px);
+    padding-top: 89px;
+    padding-bottom: 163px;
+}
+
+.navbar-color {
+    background: #152932;
+    min-height: 75px;
+}
+
+.logo {
+    width: 74px;
+    height: 33px;
+    font: normal normal 600 24px/33px Open Sans;
+    color: #FFFFFF;
+}
+
+.custom-toggle {
+    width: 36px;
+    height: 23px;
+    /* UI Properties */
+    background: transparent #1DA1F2 0% 0% no-repeat padding-box;
+}
+
+.title-email, .title-password {
+    width: 42px;
+    height: 23px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 18px/23px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #93B6C3;
+    margin-bottom: 0;
+}
+
+.title-email {
+    margin-bottom: 5px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    padding: 47px 87px;
+}
+
+ .input-box {
+    width: 359px;
+    height: 61px;
+    background: #1E3449 0% 0% no-repeat padding-box;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}  
+  
+  .input-field {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+.container-password {
+    display: flex;
+    justify-content: space-between;
+    height: 23px;
+    margin-bottom: 5px;
+}
+
+.forgot-password {
+    width: 132px;
+    height: 23px;
+    /* UI Properties */
+    /* font: normal normal normal 18px/23px Source Sans Pro; */
+    letter-spacing: 0px;
+    color: #1DA1F2;
+    margin-bottom: 0;
+}
+
+.remember-me {
+    margin-top: 9.5px;
+    display: flex;
+    gap: 15px;
+}
+
+.title-remember-me {
+    width: 110px;
+    height: 23px;
+    /* UI Properties */
+    text-align: left;
+    /* font: normal normal normal 18px/23px Source Sans Pro; */
+    letter-spacing: 0px;
+    color: #93B6C3;
+    margin-bottom: 0;
+    margin-left: 7px;
+}
+
+.sign-in-button {
+    width: 359px;
+    height: 61px;
+    background: #1DA1F2 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 8px;
+}
+
+.div-sign-in-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-sign-in {
+    width: 79px;
+    height: 33px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal bold 24px/33px Open Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    margin-bottom: 0;
+
+}
+
+.mat-card-content {
+    margin-bottom: 0;
+}
+
+.mat-card-actions {
+    padding: 0;
+}
+
+.sign-up {
+    width: 359px;
+    padding-top: 48px;
+    text-align: left;
+}
+
+.text-account {
+    width: 178px;
+    height: 23px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 18px/23px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #93B6C3;
+}
+
+.sign-up-text {
+    width: 58px;
+    height: 23px;
+    /* UI Properties */
+    text-align: left;
+    text-decoration: underline;
+    font: normal normal normal 18px/23px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #1DA1F2;
+}
+
+
+:host ::ng-deep .mat-slide-toggle.mat-checked:not(.mat-disabled) .mat-slide-toggle-bar {
+    background-color: #1DA1F2;
+    /* transform: scale(1.2); */
+}
+
+:host ::ng-deep  .mat-slide-toggle.mat-checked:not(.mat-disabled) .mat-slide-toggle-thumb {
+    background-color: #152932;
+}
+
+::ng-deep .mat-slide-toggle-bar {
+    height: 23px !important;
+    width: 40px !important;
+    border-radius: 26px !important;
+}
+
+::ng-deep .mat-slide-toggle-thumb {
+    top: 5px !important;
+    right: -1px  !important;
+    left: 1px !important;
+    position: relative;
+}
+
+::ng-deep .mat-form-field {
+    width: 100%;
+    height: 100% !important;
+}
+
+::ng-deep .mat-input-element {
+    height: 24px !important;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal 300 18px/24px Open Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF !important;
+    opacity: 0.4;
+    padding-left: 2px;
+}
+
+.label-text-input {
+    height: 24px !important;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal 300 18px/24px Open Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF !important;
+    opacity: 0.4;
+}
+
+.label-text-input::placeholder {
+    height: 24px !important;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal 300 18px/24px Open Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF !important;
+    opacity: 0.4;
+}
+
+
+::ng-deep .mat-form-field-appearance-outline .mat-form-field-wrapper {
+    margin: 0 !important;
+    height: 100% !important;
+}
+
+::ng-deep .mat-form-field-appearance-outline .mat-form-field-flex {
+    margin-top: 0 !important;
+    height: 100% !important;
+}
+
+::ng-deep .mat-form-field-appearance-outline .mat-form-field-infix {
+    padding: 0.5em 0;
+}
+::ng-deep .mat-form-field-appearance-outline.mat-focused .mat-form-field-outline-thick {
+    color: #1DA1F2;
+}
+
+::ng-deep .mat-form-field-appearance-outline .mat-form-field-outline {
+    top: 0 !important;
+}
