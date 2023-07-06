@@ -1,5 +1,5 @@
 .example-card {
-    width: 533px;
+    width: 529px;
     height: 721px;
     background: #152932 0% 0% no-repeat padding-box;
     border: 2px solid #1DA1F2;
@@ -41,6 +41,7 @@
 
 .center-content {
     text-align: -webkit-center;
+    text-align: -moz-center;
     background: url('../assets/bg.png');
     background-repeat: no-repeat;
     background-size: cover;
